@@ -20,7 +20,7 @@ def click_event(event, x, y, flags, params):
 
 if __name__ == "__main__":
     # reading the image
-    img_src_name = 'rgb0001.jpg'
+    img_src_name = 'Image.jpeg'
     img_src = cv2.imread(img_src_name, 1)
     img_shown = np.copy(img_src)
     width = img_src.shape[1]
