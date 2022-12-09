@@ -11,7 +11,7 @@ the homography once determined.
 The first part consists in getting the 4 key points of the sheet. These coordinates will be considered as being part of
 the *initial picture* frame.
 
-Then, we declare our *final frame*, by choosing (for example) the size of the input image. Hence, the sheet will fill the entire 
+Then, we declare our *final frame*, by choosing the size of the input image (example here, should fit the sheet format). Hence, the sheet will fill the entire 
 output image.
 
 The mathematical part follows. We build the correpondance point matrix $A$ for each point as below:
